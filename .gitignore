@@ -1,0 +1,8 @@
+# Ignorar executáveis e arquivos objeto da compilação
+*.exe
+*.o
+*.out
+
+# Ignorar arquivo de teste
+main.c
+.vscode/
