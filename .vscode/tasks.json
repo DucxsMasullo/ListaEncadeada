@@ -1,0 +1,24 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "build C",
+			"command": "C:/msys64/ucrt64/bin/gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${workspaceFolder}/src/*.c",
+				"-I",
+				"${workspaceFolder}/includes",
+				"-o",
+				"${workspaceFolder}/teste.exe"
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: C:/msys64/ucrt64/bin/gcc.exe"
+		}
+	]
+}
